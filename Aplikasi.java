@@ -3,22 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TM3_PEWARISAN;
 
 /**
  *
  * @author kagion
  */
 public class Aplikasi {
-    public static void main(String args[]) {
-        Hewan hewan = new Hewan();
-        Anjing ajg = new Anjing(false);
-        Ikan ikan = new Ikan();
-
-
-        hewan.status();
-        ajg.status();
-        ikan.status();
+    public static void main(String[] args) {
+        Hewan hewan=new Hewan();
+        Anjing anjing=new Anjing();
+        Ikan ikan=new Ikan();
+        
+        hewan.info("002", "jefri");
+        anjing.Status(true);
+        ikan.Status(true);
     }
-
 }
